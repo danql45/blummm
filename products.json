@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Prowadnik prosty z mimośrodem",
+    "imageURL": "https://belladlamebli.com/7283-superlarge_default/clip-prowadnik-prosty-0-mm-stal-wkrety-rw-mimosrod-niklowany-175h3100.jpg",
+    "productInfo":
+    [
+      {
+        "articleNumber": "175H3100",
+        "distance": 0,
+        "height": 8.5,
+        "colour": "Niklowany/Czarny Ocynk"
+      },
+      {
+        "articleNumber": "175H3130",
+        "distance": 3,
+        "height": 11.5,
+        "colour": "Niklowany/Czarny Ocynk"
+      }
+    ],
+    "description": "na wkrety"
+  },
+
+  {
+    "id": 2,
+    "title": "Prowadnik prosty z mimośrodem - expando",
+    "imageURL": "https://magolodz.pl/1447-large_default/zbc-prowadnik-clip-h-0-expando-prosty.jpg",
+    "productInfo":
+    [
+      {
+        "articleNumber": "177H3100E",
+        "distance": 0,
+        "height": 8.5,
+        "colour": "Niklowany/Czarny Ocynk"
+      },
+      {
+        "articleNumber": "177H3130E",
+        "distance": 3,
+        "height": 11.5,
+        "colour": "Niklowany/Czarny Ocynk"
+      }
+    ],
+    "description": "expando"
+  }
+]
