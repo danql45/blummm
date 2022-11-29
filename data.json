@@ -7,5 +7,14 @@
       "distance":0,
       "height":8.5,
       "colour":"Niklowany/Czarny Ocynk"
+   },
+   {
+      "id":2,
+      "title":"Prowadnik prosty z mimośrodem expando",
+      "imageURL":"https://magolodz.pl/1447-large_default/zbc-prowadnik-clip-h-0-expando-prosty.jpg",
+      "articleNumber":"177H3130E",
+      "distance":3,
+      "height":11.5,
+      "colour":"Niklowany/Czarny Ocynk"
    }
 ]
