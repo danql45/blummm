@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         titles.add("Fourth Item");
 
         images.add(R.drawable.ic_baseline_balance_24);
-        images.add(R.drawable.ic_baseline_beach_access_24);
+        images.add(R.drawable.prowadnikblum);
         images.add(R.drawable.ic_baseline_bluetooth_24);
         images.add(R.drawable.ic_baseline_headphones_24);
 
