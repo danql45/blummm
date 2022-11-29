@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "categoryID": 1,
+    "title": "Prowadniki",
+    "imageURL": "https://belladlamebli.com/7283-superlarge_default/clip-prowadnik-prosty-0-mm-stal-wkrety-rw-mimosrod-niklowany-175h3100.jpg",
+    "productInfo":
+    [
+      {
+        "articleID": 1,
+        "articleTitle": "Prowadnik prosty z mimośrodem",
+        "articleNumber": "175H3100",
+        "distance": 0,
+        "height": 8.5,
+        "colour": "Niklowany/Czarny Ocynk"
+      },
+      {
+        "articleID": 2,
+        "articleTitle": "Prowadnik prosty z mimośrodem",
+        "articleNumber": "175H3130",
+        "distance": 3,
+        "height": 11.5,
+        "colour": "Niklowany/Czarny Ocynk"
+      }
+    ],
+    "description": "na wkrety"
+  },
+
+  {
+    "id": 3,
+    "categoryID": 2,
+    "title": "Zawiasy",
+    "imageURL": "https://magolodz.pl/1447-large_default/zbc-prowadnik-clip-h-0-expando-prosty.jpg",
+    "productInfo":
+    [
+      {
+        "articleTitle": "Zawias 110st",
+        "articleImageURL": "URL...",
+        "articleNumber": "DQDELA",
+        "openingAngle": "110",
+        "CLIPTopBLUMOTION": "ze sprężyną",
+        "CLIPTop" : "ze sprężyną / bez sprężyny",
+        "colour": "Niklowany/Czarny Ocynk",
+        "nalozenieURL": "https...",
+        "mocowaniePuszkiURL": "https...",
+        "description": "descr"
+      },
+      {
+        "articleTitle": "Zawias 107st",
+        "articleImageURL": "URL...",
+        "articleNumber": "DQDFAM",
+        "openingAngle": "107",
+        "CLIPTopBLUMOTION": "ze sprężyną",
+        "CLIPTop" : "ze sprężyną / bez sprężyny",
+        "colour": "Niklowany/Czarny Ocynk",
+        "nalozenieURL": "https...",
+        "mocowaniePuszkiURL": "https...",
+        "description": "descr"
+      }
+    ]
+  }
+]
