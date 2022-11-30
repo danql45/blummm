@@ -25,6 +25,33 @@
     ],
     "description": "na wkrety"
   },
+  
+  {
+    "id": 1,
+    "categoryID": 1,
+    "title": "Prowadniki-expando",
+    "imageURL": "https://magolodz.pl/1447-large_default/zbc-prowadnik-clip-h-0-expando-prosty.jpg",
+    "productInfo":
+    [
+      {
+        "articleID": 1,
+        "articleTitle": "Prowadnik prosty z mimośrodem -epando",
+        "articleNumber": "175H3100",
+        "distance": 0,
+        "height": 8.5,
+        "colour": "Niklowany/Czarny Ocynk"
+      },
+      {
+        "articleID": 2,
+        "articleTitle": "Prowadnik prosty z mimośrodem -expando",
+        "articleNumber": "175H3130",
+        "distance": 3,
+        "height": 11.5,
+        "colour": "Niklowany/Czarny Ocynk"
+      }
+    ],
+    "description": "na wkrety"
+  },
 
   {
     "id": 3,
@@ -58,31 +85,5 @@
         "description": "descr"
       }
     ]
-  },
-    {
-    "id": 1,
-    "categoryID": 4,
-    "title": "Prowadniki-expando",
-    "imageURL": "https://magolodz.pl/1447-large_default/zbc-prowadnik-clip-h-0-expando-prosty.jpg",
-    "productInfo":
-    [
-      {
-        "articleID": 1,
-        "articleTitle": "Prowadnik prosty z mimośrodem -epando",
-        "articleNumber": "175H3100",
-        "distance": 0,
-        "height": 8.5,
-        "colour": "Niklowany/Czarny Ocynk"
-      },
-      {
-        "articleID": 2,
-        "articleTitle": "Prowadnik prosty z mimośrodem -expando",
-        "articleNumber": "175H3130",
-        "distance": 3,
-        "height": 11.5,
-        "colour": "Niklowany/Czarny Ocynk"
-      }
-    ],
-    "description": "na wkrety"
   }
 ]
