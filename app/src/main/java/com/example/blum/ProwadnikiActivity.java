@@ -25,9 +25,12 @@ public class ProwadnikiActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     List<Prowadnik> prowadniki;
-    public static String JSON_URL = "https://raw.githubusercontent.com/danql45/ProjektPAM/master/data.json";
+    public static String JSON_URL = "https://raw.githubusercontent.com/danql45/ProjektPAM/master/pro3.json";
 
     ProwadnikiAdapter prowadnikiAdapter;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,30 +45,79 @@ public class ProwadnikiActivity extends AppCompatActivity {
     private void extractProducts(){
         RequestQueue queue = Volley.newRequestQueue(this);
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, JSON_URL, null, response -> {
+
+            int categoryClicked = getIntent().getIntExtra("clickedPos", 99);
+
             for (int i = 0; i < response.length(); i++) {
                 try {
                     JSONObject jsonObject = response.getJSONObject(i);
                     JSONArray jsonArray = jsonObject.getJSONArray("productInfo");
 
-                    Prowadnik prowadnik = new Prowadnik();
-
-                    prowadnik.setId(jsonObject.getInt("id"));
-                    prowadnik.setTitle(jsonObject.getString("title").toString());
-                    prowadnik.setImageURL(jsonObject.getString("imageURL"));
-
+                    System.out.println(i + " iteracja");
                     //parse nested json elements
 
                     for (int j = 0; j < jsonArray.length(); j++){
-                        JSONObject jo = jsonArray.getJSONObject(j);
-                        System.out.println(jo);
 
-                        prowadnik.setArticleNumber(jo.getString("articleNumber").toString());
-                        prowadnik.setColour(jo.getString("colour").toString());
-                        prowadnik.setDistance(jo.getString("distance").toString());
-                        prowadnik.setHeight(jo.getString("height").toString());
+                        if(jsonObject.getInt("category") == 1 && categoryClicked == 1){
+                            Prowadnik prowadnik = new Prowadnik();
+
+
+
+                            prowadnik.setId(jsonObject.getInt("id"));
+                            prowadnik.setTitle(jsonObject.getString("title").toString());
+                            prowadnik.setImageURL(jsonObject.getString("imageURL"));
+
+                            JSONObject jo = jsonArray.getJSONObject(j);
+                            System.out.println(jo);
+
+                            prowadnik.setArticleNumber(jo.getString("articleNumber").toString());
+                            prowadnik.setColour(jo.getString("colour").toString());
+                            prowadnik.setDistance(jo.getString("distance").toString());
+                            prowadnik.setHeight(jo.getString("height").toString());
+
+                            prowadniki.add(prowadnik);
+                        }else if(jsonObject.getInt("category") == 2 && categoryClicked == 0){
+                            Prowadnik prowadnik = new Prowadnik();
+                            prowadnik.setId(jsonObject.getInt("id"));
+                            prowadnik.setTitle(jsonObject.getString("title").toString());
+                            prowadnik.setImageURL(jsonObject.getString("imageURL"));
+
+                            JSONObject jo = jsonArray.getJSONObject(j);
+                            System.out.println(jo);
+
+                            prowadnik.setColour(jo.getString("colour").toString());
+                            prowadniki.add(prowadnik);
+                        }
+
+
+
+
+//                    int stop = 0;
+//                    if(jsonObject.getInt("id") == 3) stop = 1;
+//                    //parse nested json elements
+//
+//                    for (int j = 0; j < jsonArray.length(); j++){
+//                        Prowadnik prowadnik = new Prowadnik();
+//
+//                        prowadnik.setId(jsonObject.getInt("id"));
+//                        prowadnik.setTitle(jsonObject.getString("title").toString());
+//                        prowadnik.setImageURL(jsonObject.getString("imageURL"));
+//
+//                        JSONObject jo = jsonArray.getJSONObject(j);
+//                        System.out.println(jo);
+//
+//                        if(stop == 1) break;
+//                        else {
+//                            prowadnik.setArticleNumber(jo.getString("articleNumber").toString());
+//                            prowadnik.setColour(jo.getString("colour").toString());
+//                            prowadnik.setDistance(jo.getString("distance").toString());
+//                            prowadnik.setHeight(jo.getString("height").toString());
+//                        }
+//                        System.out.println(jo.getString("distance").toString());
+//                        prowadniki.add(prowadnik);
                     }
 
-                    prowadniki.add(prowadnik);
+
 
 
                 } catch (JSONException e) {

@@ -24,9 +24,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         this.titles = titles;
         this.images = images;
         this.inflater = LayoutInflater.from(ctx);
+
     }
-
-
 
     @NonNull
     @Override
@@ -61,10 +60,11 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                 @Override
                 public void onClick(View view) {
                     Toast.makeText(view.getContext(),"clicked ->" + getAdapterPosition(), Toast.LENGTH_SHORT).show();
-                    if (getAdapterPosition() == 1){
+
                         intent = new Intent(view.getContext(), ProwadnikiActivity.class);
+                        intent.putExtra("clickedPos", getAdapterPosition());
                         view.getContext().startActivity(intent);
-                    }
+
                 }
             });
         }

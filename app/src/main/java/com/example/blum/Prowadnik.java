@@ -2,6 +2,7 @@ package com.example.blum;
 
 public class Prowadnik {
     private Integer id;
+    private Integer category;
     private String title;
     private String imageURL;
     private String articleNumber;
@@ -13,8 +14,9 @@ public class Prowadnik {
     public Prowadnik(){}
 
 
-    public Prowadnik(Integer id, Integer articleID, String title, String imageURL, String articleNumber, String distance, String height, String colour){
+    public Prowadnik(Integer id, Integer articleID, String title, String imageURL, String articleNumber, String distance, String height, String colour, Integer category){
         this.id = id;
+        this.category = category;
         this.articleID = articleID;
         this.title = title;
         this.imageURL = imageURL;
@@ -22,6 +24,14 @@ public class Prowadnik {
         this.distance = distance;
         this.height = height;
         this.colour = colour;
+    }
+
+    public Integer getCategory() {
+        return category;
+    }
+
+    public void setCategory(Integer category) {
+        this.category = category;
     }
 
     public Integer getArticleID() {

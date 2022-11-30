@@ -34,6 +34,7 @@ public class ProwadnikiAdapter extends RecyclerView.Adapter<ProwadnikiAdapter.Vi
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         //bind data
+        holder.distance.setVisibility(View.VISIBLE);
         holder.name.setText(prowadniki.get(position).getTitle());
         holder.distance.setText(prowadniki.get(position).getDistance());
         holder.height.setText(prowadniki.get(position).getHeight());
