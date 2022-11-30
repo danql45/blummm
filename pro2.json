@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "categoryID": "1",
+    "category": 1,
     "title": "Prowadniki",
     "imageURL": "https://belladlamebli.com/7283-superlarge_default/clip-prowadnik-prosty-0-mm-stal-wkrety-rw-mimosrod-niklowany-175h3100.jpg",
     "productInfo":
@@ -28,7 +28,7 @@
   
   {
     "id": 2,
-    "categoryID": "1",
+    "category": 1,
     "title": "Prowadniki-expando",
     "imageURL": "https://magolodz.pl/1447-large_default/zbc-prowadnik-clip-h-0-expando-prosty.jpg",
     "productInfo":
@@ -55,7 +55,7 @@
 
   {
     "id": 3,
-    "categoryID": "2",
+    "category": 2,
     "title": "Zawiasy",
     "imageURL": "https://magolodz.pl/1447-large_default/zbc-prowadnik-clip-h-0-expando-prosty.jpg",
     "productInfo":
