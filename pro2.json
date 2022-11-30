@@ -60,15 +60,15 @@
     ]
   },
     {
-    "id": 4,
+    "id": 1,
     "categoryID": 4,
-    "title": "Prowadniki",
-    "imageURL": "https://belladlamebli.com/7283-superlarge_default/clip-prowadnik-prosty-0-mm-stal-wkrety-rw-mimosrod-niklowany-175h3100.jpg",
+    "title": "Prowadniki-expando",
+    "imageURL": "https://magolodz.pl/1447-large_default/zbc-prowadnik-clip-h-0-expando-prosty.jpg",
     "productInfo":
     [
       {
         "articleID": 1,
-        "articleTitle": "Prowadnik prosty z mimośrodem",
+        "articleTitle": "Prowadnik prosty z mimośrodem -epando",
         "articleNumber": "175H3100",
         "distance": 0,
         "height": 8.5,
@@ -76,7 +76,7 @@
       },
       {
         "articleID": 2,
-        "articleTitle": "Prowadnik prosty z mimośrodem",
+        "articleTitle": "Prowadnik prosty z mimośrodem -expando",
         "articleNumber": "175H3130",
         "distance": 3,
         "height": 11.5,
