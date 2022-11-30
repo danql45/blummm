@@ -1,45 +1,98 @@
 [
   {
     "id": 1,
+    "category": 1,
     "title": "Prowadnik prosty z mimośrodem",
     "imageURL": "https://belladlamebli.com/7283-superlarge_default/clip-prowadnik-prosty-0-mm-stal-wkrety-rw-mimosrod-niklowany-175h3100.jpg",
     "productInfo":
     [
       {
+        "articleID": 1,
         "articleNumber": "175H3100",
         "distance": 0,
         "height": 8.5,
-        "colour": "Niklowany/Czarny Ocynk"
+        "colour": "Niklowany/Czarny Ocynk",
+        "fixingMethod": "Mocowanie na wkrety",
+        "productURL": "https://www.ielektronarzedzia.pl/img/173101/40047892_BT_P_1_PB_BAU_SALL_AOF_V1.jpg"
       },
       {
+        "articleID": 2,
         "articleNumber": "175H3130",
         "distance": 3,
         "height": 11.5,
-        "colour": "Niklowany/Czarny Ocynk"
+        "colour": "Niklowany/Czarny Ocynk",
+        "fixingMethod": "Mocowanie na wkrety",
+        "productURL": "https://webshop.schachermayer.com/cdn/derivates/5/175/896/DV005-ppic_BLUM_CLIP_MPL_3_Exzenter_gerade_SpaxStahl_175H3130_0.jpg"
+      },
+      {
+        "articleID": 3,
+        "articleNumber": "177H3100E",
+        "distance": 0,
+        "height": 8.5,
+        "colour": "Niklowany/Czarny Ocynk",
+        "fixingMethod": "Mocowanie EXPANDO",
+        "productURL": "https://webshop.schachermayer.com/cdn/derivates/5/175/897/DV005-ppic_BLUM_CLIP_MPL_0_Exzenter_gerade_EXPStahl_177H3100_0.jpg"
       }
-    ],
-    "description": "na wkrety"
+    ]
   },
 
   {
     "id": 2,
-    "title": "Prowadnik prosty z mimośrodem - expando",
+    "category": 1,
+    "title": "Prowadniki krzyżakowy INSERTA",
     "imageURL": "https://magolodz.pl/1447-large_default/zbc-prowadnik-clip-h-0-expando-prosty.jpg",
     "productInfo":
     [
       {
-        "articleNumber": "177H3100E",
+        "articleID": 1,
+        "articleNumber": "174H7100I",
         "distance": 0,
         "height": 8.5,
-        "colour": "Niklowany/Czarny Ocynk"
+        "colour": "Niklowany/Czarny Ocynk",
+        "fixingMethod": "Mocowanie INSERTA",
+        "productURL": "https://webshop.schachermayer.com/cdn/derivates/5/175/110/DV005-ppic_BLUM_MONTAGEPLATTEN_174H7100I_0.jpg"
       },
       {
-        "articleNumber": "177H3130E",
+        "articleID": 2,
+        "articleNumber": "174H7130I",
         "distance": 3,
         "height": 11.5,
-        "colour": "Niklowany/Czarny Ocynk"
+        "colour": "Niklowany/Czarny Ocynk",
+        "fixingMethod": "Mocowanie INSERTA",
+        "productURL": "https://wior.pl/21917-large_default/174h7130i-clip-prowadnik-krzyzakowy-3-mm-stal-inserta-rw-mimosrod.jpg"
       }
-    ],
-    "description": "expando"
+    ]
+  },
+
+
+  {
+    "id": 3,
+    "category": 2,
+    "title": "Zawias 110st",
+    "imageURL": "https://webshop.schachermayer.com/cdn/derivates/5/175/903/DV005-ppic_BLUM_CLIP_top_BLUMO110Grad_Eckb_INS_71B3590_0.jpg",
+    "productInfo":
+    [
+      {
+        "articleID": 1,
+        "doorType": "Drzwi nakładane",
+        "productURL": "https://webshop.schachermayer.com/cdn/derivates/5/175/903/DV005-ppic_BLUM_CLIP_top_BLUMO110Grad_Eckb_INS_71B3590_0.jpg",
+        "articleNumber": "71B3590",
+        "openingAngle": "110",
+        "productSystem": "CLIPTopBLUMOTION",
+        "colour": "Niklowany/Czarny Ocynk",
+        "fixingMethod": "Mocowanie INSERTA"
+      },
+      {
+        "articleID": 2,
+        "doorType": "Drzwi nakładane",
+        "productURL": "https://wior.pl/21990-large_default/71t3590-clip-top-zawias-standard-110-drzwi-nakladane-puszka-inserta.jpg",
+        "articleNumber": "71T3590",
+        "openingAngle": "110",
+        "productSystem": "CLIPTop",
+        "colour": "Niklowany/Czarny Ocynk",
+        "fixingMethod": "Mocowanie INSERTA"
+      }
+    ]
   }
+
 ]
