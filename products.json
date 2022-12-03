@@ -7,6 +7,7 @@
     "productInfo":
     [
       {
+        "parentID" : 1,
         "articleID": 1,
         "articleNumber": "175H3100",
         "distance": 0,
@@ -16,6 +17,7 @@
         "productURL": "https://www.ielektronarzedzia.pl/img/173101/40047892_BT_P_1_PB_BAU_SALL_AOF_V1.jpg"
       },
       {
+        "parentID" : 1,
         "articleID": 2,
         "articleNumber": "175H3130",
         "distance": 3,
@@ -25,6 +27,7 @@
         "productURL": "https://sklep.mebloart.eu/img/18836/product.jpg"
       },
       {
+        "parentID" : 1,
         "articleID": 3,
         "articleNumber": "177H3100E",
         "distance": 0,
@@ -44,6 +47,7 @@
     "productInfo":
     [
       {
+        "parentID" : 2,
         "articleID": 1,
         "articleNumber": "174H7100I",
         "distance": 0,
@@ -53,6 +57,7 @@
         "productURL": "https://wior.pl/19790-medium_default/clip-prowadnik-krzyzakowy-0-mm-stal-inserta-rw-mimosrod-niklowany.jpg"
       },
       {
+        "parentID" : 2,
         "articleID": 2,
         "articleNumber": "174H7130I",
         "distance": 3,
@@ -73,6 +78,7 @@
     "productInfo":
     [
       {
+        "parentID" : 3,
         "articleID": 1,
         "doorType": "Drzwi nakładane",
         "productURL": "https://wior.pl/21973-large_default/71b3590-clip-top-blumotion-zawias-standard-110-drzwi-nakladane-puszka-inserta.jpg",
@@ -83,6 +89,7 @@
         "fixingMethod": "Mocowanie INSERTA"
       },
       {
+        "parentID" : 3,
         "articleID": 2,
         "doorType": "Drzwi nakładane",
         "productURL": "https://wior.pl/21990-large_default/71t3590-clip-top-zawias-standard-110-drzwi-nakladane-puszka-inserta.jpg",
