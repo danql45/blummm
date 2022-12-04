@@ -292,5 +292,63 @@
         "productSystem": "CLIPtop - ze sprężyną"
       }
     ]
+  },
+  {
+    "id": 9,
+    "category": 2,
+    "title": "Zawias do drzwi równoległych",
+    "imageURL": "https://bivert.pl/img/196571/S_79B9550_P_1_PB_BAU_SALL_AOF_V1.jpg",
+    "productInfo":
+    [
+      {
+        "parentID" : 9,
+        "articleNumber": "79B9550",
+        "productURL": "https://bivert.pl/img/177781/44039066_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+        "colour": "Niklowany/Czarny Onyx",
+        "fixingMethod": "Mocowanie na wkręty",
+        "doorType": "Drzwi równoległe",
+        "openingAngle": "95",
+        "productSystem": "CLIPtopBLUMOTION"
+      },
+      {
+        "parentID" : 9,
+        "articleNumber": "78T9550",
+        "productURL": "https://bivert.pl/img/182681/48336712_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+        "colour": "Niklowany/Czarny Onyx",
+        "fixingMethod": "Mocowanie na wkręty",
+        "doorType": "Drzwi równoległe",
+        "openingAngle": "83",
+        "productSystem": "CLIPtop TIP-ON"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": 2,
+    "title": "Zawias do drzwi składanych",
+    "imageURL": "https://bivert.pl/img/180871/46584366_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+    "productInfo":
+    [
+      {
+        "parentID" : 10,
+        "articleNumber": "79T8500",
+        "productURL": "https://bivert.pl/img/180871/46584366_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie na wkręty",
+        "doorType": "Drzwi składane",
+        "openingAngle": "60",
+        "productSystem": "CLIPtop - ze sprężyną"
+      },
+      {
+        "parentID" : 10,
+        "articleNumber": "79T8530",
+        "productURL": "https://bivert.pl/img/176311/42466462_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie INSERTA na wcisk",
+        "doorType": "Drzwi składane",
+        "openingAngle": "60",
+        "productSystem": "CLIPtop - ze sprężyną"
+      }
+    ]
   }
 ]
