@@ -283,8 +283,8 @@
       },
       {
         "parentID" : 8,
-        "articleNumber": "https://bivert.pl/img/109941/71T6540B%20MB%20V25%20NI.jpg",
-        "productURL": "71T6540B",
+        "articleNumber": "71T6540B",
+        "productURL": "https://bivert.pl/img/109941/71T6540B%20MB%20V25%20NI.jpg",
         "colour": "Niklowany",
         "fixingMethod": "Mocowanie INSERTA",
         "doorType": "Drzwi nakładane",
