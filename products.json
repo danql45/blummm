@@ -9,29 +9,29 @@
       {
         "parentID" : 1,
         "articleNumber": "175H3100",
+        "productURL": "https://www.ielektronarzedzia.pl/img/173101/40047892_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
         "distance": 0,
         "height": 8.5,
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie na wkrety",
-        "productURL": "https://www.ielektronarzedzia.pl/img/173101/40047892_BT_P_1_PB_BAU_SALL_AOF_V1.jpg"
+        "fixingMethod": "Mocowanie na wkrety"
       },
       {
         "parentID" : 1,
         "articleNumber": "175H3130",
+        "productURL": "https://sklep.mebloart.eu/img/18836/product.jpg",
         "distance": 3,
         "height": 11.5,
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie na wkrety",
-        "productURL": "https://sklep.mebloart.eu/img/18836/product.jpg"
+        "fixingMethod": "Mocowanie na wkrety"
       },
       {
         "parentID" : 1,
         "articleNumber": "177H3100E",
+        "productURL": "https://bagart.pl/16874/blum-prowadnik-prosty-0mm-expando-177h3100e.jpg",
         "distance": 0,
         "height": 8.5,
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie EXPANDO",
-        "productURL": "https://bagart.pl/16874/blum-prowadnik-prosty-0mm-expando-177h3100e.jpg"
+        "fixingMethod": "Mocowanie EXPANDO"
       }
     ]
   },
@@ -46,20 +46,20 @@
       {
         "parentID" : 2,
         "articleNumber": "174H7100I",
+        "productURL": "https://wior.pl/19790-medium_default/clip-prowadnik-krzyzakowy-0-mm-stal-inserta-rw-mimosrod-niklowany.jpg",
         "distance": 0,
         "height": 8.5,
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie INSERTA",
-        "productURL": "https://wior.pl/19790-medium_default/clip-prowadnik-krzyzakowy-0-mm-stal-inserta-rw-mimosrod-niklowany.jpg"
+        "fixingMethod": "Mocowanie INSERTA"
       },
       {
         "parentID" : 2,
         "articleNumber": "174H7130I",
+        "productURL": "https://wior.pl/21917-large_default/174h7130i-clip-prowadnik-krzyzakowy-3-mm-stal-inserta-rw-mimosrod.jpg",
         "distance": 3,
         "height": 11.5,
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie INSERTA",
-        "productURL": "https://wior.pl/21917-large_default/174h7130i-clip-prowadnik-krzyzakowy-3-mm-stal-inserta-rw-mimosrod.jpg"
+        "fixingMethod": "Mocowanie INSERTA"
       }
     ]
   },
@@ -74,25 +74,223 @@
     [
       {
         "parentID" : 3,
-        "doorType": "Drzwi nakładane",
-        "productURL": "https://wior.pl/21973-large_default/71b3590-clip-top-blumotion-zawias-standard-110-drzwi-nakladane-puszka-inserta.jpg",
         "articleNumber": "71B3590",
-        "openingAngle": "110",
-        "productSystem": "CLIPTopBLUMOTION",
+        "productURL": "https://wior.pl/21973-large_default/71b3590-clip-top-blumotion-zawias-standard-110-drzwi-nakladane-puszka-inserta.jpg",
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie INSERTA"
+        "fixingMethod": "Mocowanie INSERTA",
+        "doorType": "Drzwi nakładane",
+        "openingAngle": "110",
+        "productSystem": "CLIPTopBLUMOTION"
       },
       {
         "parentID" : 3,
-        "doorType": "Drzwi nakładane",
-        "productURL": "https://wior.pl/21990-large_default/71t3590-clip-top-zawias-standard-110-drzwi-nakladane-puszka-inserta.jpg",
         "articleNumber": "71T3590",
-        "openingAngle": "110",
-        "productSystem": "CLIPTop",
+        "productURL": "https://wior.pl/21990-large_default/71t3590-clip-top-zawias-standard-110-drzwi-nakladane-puszka-inserta.jpg",
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie INSERTA"
+        "fixingMethod": "Mocowanie INSERTA",
+        "doorType": "Drzwi nakładane",
+        "openingAngle": "110",
+        "productSystem": "CLIPTop"
+      }
+    ]
+  },
+
+
+  {
+    "id": 4,
+    "category": 3,
+    "title": "Awentos HK-XS",
+    "imageURL": "https://www.drzazgasklep.pl/uploads/shop/product_images/aventos-hk-xs-silownik-do-frontow-niskich-mocny-20k1501-z-blumotion-komplet_4256_HvkjuFVi3zAccs35aEyz.jpg",
+    "productInfo":
+    [
+      {
+        "parentID" : 4,
+        "articleNumber": "20K1101",
+        "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "openingAngle": "105",
+        "productSystem": "BLUMOTION",
+        "cabinetHeight": "240-600mm",
+        "cabinetMinDepth": "125mm",
+        "powerFactorLF": "200-1000"
+      },
+      {
+        "parentID" : 4,
+        "articleNumber": "20K1301",
+        "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "openingAngle": "105",
+        "productSystem": "BLUMOTION",
+        "cabinetHeight": "240-600mm",
+        "cabinetMinDepth": "125mm",
+        "powerFactorLF": "500-1500"
+      },
+      {
+        "parentID" : 4,
+        "articleNumber": "20K1501",
+        "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "openingAngle": "105",
+        "productSystem": "BLUMOTION",
+        "cabinetHeight": "240-600mm",
+        "cabinetMinDepth": "125mm",
+        "powerFactorLF": "800-1800"
+      },
+      {
+        "parentID" : 4,
+        "articleNumber": "20K1101T",
+        "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "openingAngle": "105",
+        "productSystem": "TIP-ON",
+        "cabinetHeight": "240-600mm",
+        "cabinetMinDepth": "125mm",
+        "powerFactorLF": "180-800"
+      },
+      {
+        "parentID" : 4,
+        "articleNumber": "20K1301T",
+        "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "openingAngle": "105",
+        "productSystem": "TIP-ON",
+        "cabinetHeight": "240-600mm",
+        "cabinetMinDepth": "125mm",
+        "powerFactorLF": "500-1200"
+      },
+      {
+        "parentID" : 4,
+        "articleNumber": "20K1501T",
+        "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "openingAngle": "105",
+        "productSystem": "TIP-ON",
+        "cabinetHeight": "240-600mm",
+        "cabinetMinDepth": "125mm",
+        "powerFactorLF": "800-1600"
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "category": 1,
+    "title": "Prowadniki krzyżakowy z mimośrodem",
+    "imageURL": "https://s1.meble.pl/gfx/_zdjecia_wspolne/sklep_oferta/4/514/4514825/b173h71_clip_prowadnik__mm_stalowy_wkrety_spaxregu_9893142118.jpg",
+    "productInfo":
+    [
+      {
+        "parentID" : 5,
+        "articleNumber": "173H7100",
+        "productURL": "https://bivert.pl/img/178061/44226109_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+        "distance": 0,
+        "height": 8.5,
+        "colour": "Niklowany/Czarny Ocynk",
+        "fixingMethod": "Mocowanie na wkrety"
+      },
+      {
+        "parentID" : 5,
+        "articleNumber": "173H7130",
+        "productURL": "https://bivert.pl/img/183191/48590039_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+        "distance": 3,
+        "height": 11.5,
+        "colour": "Niklowany/Czarny Ocynk",
+        "fixingMethod": "Mocowanie na wkrety"
+      }
+    ]
+  },
+
+  {
+    "id": 6,
+    "category": 2,
+    "title": "Zawias CLIP 100st",
+    "imageURL": "https://bivert.pl/img/176251/42444851_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+    "productInfo":
+    [
+      {
+        "parentID" : 6,
+        "articleNumber": "71M2550",
+        "productURL": "https://bivert.pl/img/176251/42444851_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie na wkręty",
+        "doorType": "Drzwi nakładane",
+        "openingAngle": "100",
+        "productSystem": "CLIP - ze sprężyną"
+      },
+      {
+        "parentID" : 6,
+        "articleNumber": "71M2590B",
+        "productURL": "https://bivert.pl/img/183871/49325014_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie INSERTA",
+        "doorType": "Drzwi nakładane",
+        "openingAngle": "100",
+        "productSystem": "CLIP - ze sprężyną"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": 2,
+    "title": "Zawias 155st",
+    "imageURL": "https://bivert.pl/img/180891/46597865_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+    "productInfo":
+    [
+      {
+        "parentID" : 7,
+        "articleNumber": "71B7550",
+        "productURL": "https://bivert.pl/img/180891/46597865_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+        "colour": "Niklowany/Czarny Onyx",
+        "fixingMethod": "Mocowanie na wkręty",
+        "doorType": "Drzwi nakładane",
+        "openingAngle": "155",
+        "productSystem": "CLIPtopBLUMOTION"
+      },
+      {
+        "parentID" : 7,
+        "articleNumber": "70T7550.TL",
+        "productURL": "https://bivert.pl/img/183531/49173486_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+        "colour": "Niklowany/Czarny Onyx",
+        "fixingMethod": "Mocowanie na wkręty",
+        "doorType": "Drzwi nakładane",
+        "openingAngle": "155",
+        "productSystem": "CLIPtop TIP-ON"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": 2,
+    "title": "Zawias 170st",
+    "imageURL": "https://bivert.pl/img/178781/45050442_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+    "productInfo":
+    [
+      {
+        "parentID" : 8,
+        "articleNumber": "71T6550",
+        "productURL": "https://bivert.pl/img/178781/45050442_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie na wkręty",
+        "doorType": "Drzwi nakładane",
+        "openingAngle": "170",
+        "productSystem": "CLIPtop - ze sprężyną"
+      },
+      {
+        "parentID" : 8,
+        "articleNumber": "https://bivert.pl/img/109941/71T6540B%20MB%20V25%20NI.jpg",
+        "productURL": "71T6540B",
+        "colour": "Niklowany",
+        "fixingMethod": "Mocowanie INSERTA",
+        "doorType": "Drzwi nakładane",
+        "openingAngle": "170",
+        "productSystem": "CLIPtop - ze sprężyną"
       }
     ]
   }
-
 ]
