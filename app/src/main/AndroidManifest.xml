@@ -16,7 +16,7 @@
         android:theme="@style/Theme.BLUM"
         tools:targetApi="31">
         <activity
-            android:name=".ProwadnikiActivity"
+            android:name=".ProductsActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

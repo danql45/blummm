@@ -19,7 +19,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     List<String> titles;
     List<Integer> images;
     LayoutInflater inflater;
-    //smallacademy
+
     public Adapter(Context ctx, List<String> titles, List<Integer> images){
         this.titles = titles;
         this.images = images;
@@ -61,7 +61,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                 public void onClick(View view) {
                     Toast.makeText(view.getContext(),"clicked ->" + getAdapterPosition(), Toast.LENGTH_SHORT).show();
 
-                        intent = new Intent(view.getContext(), ProwadnikiActivity.class);
+                        intent = new Intent(view.getContext(), ProductsActivity.class);
                         intent.putExtra("clickedPos", getAdapterPosition());
                         view.getContext().startActivity(intent);
 
