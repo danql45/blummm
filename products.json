@@ -13,7 +13,7 @@
         "distance": 0,
         "height": 8.5,
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie na wkrety"
+        "fixingMethod": "na wkrety"
       },
       {
         "parentID" : 1,
@@ -31,7 +31,7 @@
         "distance": 0,
         "height": 8.5,
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie EXPANDO"
+        "fixingMethod": "EXPANDO"
       }
     ]
   },
@@ -50,7 +50,7 @@
         "distance": 0,
         "height": 8.5,
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie INSERTA"
+        "fixingMethod": "INSERTA"
       },
       {
         "parentID" : 2,
@@ -59,7 +59,7 @@
         "distance": 3,
         "height": 11.5,
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie INSERTA"
+        "fixingMethod": "INSERTA"
       }
     ]
   },
@@ -77,7 +77,7 @@
         "articleNumber": "71B3590",
         "productURL": "https://wior.pl/21973-large_default/71b3590-clip-top-blumotion-zawias-standard-110-drzwi-nakladane-puszka-inserta.jpg",
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie INSERTA",
+        "fixingMethod": "INSERTA",
         "doorType": "Drzwi nakładane",
         "openingAngle": "110",
         "productSystem": "CLIPTopBLUMOTION"
@@ -87,7 +87,7 @@
         "articleNumber": "71T3590",
         "productURL": "https://wior.pl/21990-large_default/71t3590-clip-top-zawias-standard-110-drzwi-nakladane-puszka-inserta.jpg",
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie INSERTA",
+        "fixingMethod": "INSERTA",
         "doorType": "Drzwi nakładane",
         "openingAngle": "110",
         "productSystem": "CLIPTop"
@@ -108,7 +108,7 @@
         "articleNumber": "20K1101",
         "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "fixingMethod": "do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie do frontu (Wkręty - 20K4101, Expando - 20K41E1)",
         "openingAngle": "105",
         "productSystem": "BLUMOTION",
         "cabinetHeight": "240-600mm",
@@ -120,7 +120,7 @@
         "articleNumber": "20K1301",
         "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "fixingMethod": "do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie do frontu (Wkręty - 20K4101, Expando - 20K41E1)",
         "openingAngle": "105",
         "productSystem": "BLUMOTION",
         "cabinetHeight": "240-600mm",
@@ -132,7 +132,7 @@
         "articleNumber": "20K1501",
         "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "fixingMethod": "do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie do frontu (Wkręty - 20K4101, Expando - 20K41E1)",
         "openingAngle": "105",
         "productSystem": "BLUMOTION",
         "cabinetHeight": "240-600mm",
@@ -144,7 +144,7 @@
         "articleNumber": "20K1101T",
         "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "fixingMethod": "do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie do frontu (Wkręty - 20K4101, Expando - 20K41E1)",
         "openingAngle": "105",
         "productSystem": "TIP-ON",
         "cabinetHeight": "240-600mm",
@@ -156,7 +156,7 @@
         "articleNumber": "20K1301T",
         "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "fixingMethod": "do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie do frontu (Wkręty - 20K4101, Expando - 20K41E1)",
         "openingAngle": "105",
         "productSystem": "TIP-ON",
         "cabinetHeight": "240-600mm",
@@ -168,7 +168,7 @@
         "articleNumber": "20K1501T",
         "productURL": "https://e-markat.pl/26915-large_default/blum-silownik-20k1101-do-aventosa-hk-xs.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie frontu (Wkręty - 20K4101, Expando - 20K41E1)",
+        "fixingMethod": "do korpusu (Wkręty - 20K5101, Expando - 20K51E1); Mocowanie do frontu (Wkręty - 20K4101, Expando - 20K41E1)",
         "openingAngle": "105",
         "productSystem": "TIP-ON",
         "cabinetHeight": "240-600mm",
@@ -192,7 +192,7 @@
         "distance": 0,
         "height": 8.5,
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie na wkrety"
+        "fixingMethod": "na wkrety"
       },
       {
         "parentID" : 5,
@@ -201,7 +201,7 @@
         "distance": 3,
         "height": 11.5,
         "colour": "Niklowany/Czarny Ocynk",
-        "fixingMethod": "Mocowanie na wkrety"
+        "fixingMethod": "na wkrety"
       }
     ]
   },
@@ -218,7 +218,7 @@
         "articleNumber": "71M2550",
         "productURL": "https://bivert.pl/img/176251/42444851_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie na wkręty",
+        "fixingMethod": "na wkręty",
         "doorType": "Drzwi nakładane",
         "openingAngle": "100",
         "productSystem": "CLIP - ze sprężyną"
@@ -228,7 +228,7 @@
         "articleNumber": "71M2590B",
         "productURL": "https://bivert.pl/img/183871/49325014_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie INSERTA",
+        "fixingMethod": "INSERTA",
         "doorType": "Drzwi nakładane",
         "openingAngle": "100",
         "productSystem": "CLIP - ze sprężyną"
@@ -247,7 +247,7 @@
         "articleNumber": "71B7550",
         "productURL": "https://bivert.pl/img/180891/46597865_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
         "colour": "Niklowany/Czarny Onyx",
-        "fixingMethod": "Mocowanie na wkręty",
+        "fixingMethod": "na wkręty",
         "doorType": "Drzwi nakładane",
         "openingAngle": "155",
         "productSystem": "CLIPtopBLUMOTION"
@@ -257,7 +257,7 @@
         "articleNumber": "70T7550.TL",
         "productURL": "https://bivert.pl/img/183531/49173486_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
         "colour": "Niklowany/Czarny Onyx",
-        "fixingMethod": "Mocowanie na wkręty",
+        "fixingMethod": "na wkręty",
         "doorType": "Drzwi nakładane",
         "openingAngle": "155",
         "productSystem": "CLIPtop TIP-ON"
@@ -276,7 +276,7 @@
         "articleNumber": "71T6550",
         "productURL": "https://bivert.pl/img/178781/45050442_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie na wkręty",
+        "fixingMethod": "na wkręty",
         "doorType": "Drzwi nakładane",
         "openingAngle": "170",
         "productSystem": "CLIPtop - ze sprężyną"
@@ -286,7 +286,7 @@
         "articleNumber": "71T6540B",
         "productURL": "https://bivert.pl/img/109941/71T6540B%20MB%20V25%20NI.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie INSERTA",
+        "fixingMethod": "INSERTA",
         "doorType": "Drzwi nakładane",
         "openingAngle": "170",
         "productSystem": "CLIPtop - ze sprężyną"
@@ -305,7 +305,7 @@
         "articleNumber": "79B9550",
         "productURL": "https://bivert.pl/img/177781/44039066_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
         "colour": "Niklowany/Czarny Onyx",
-        "fixingMethod": "Mocowanie na wkręty",
+        "fixingMethod": "na wkręty",
         "doorType": "Drzwi równoległe",
         "openingAngle": "95",
         "productSystem": "CLIPtopBLUMOTION"
@@ -315,7 +315,7 @@
         "articleNumber": "78T9550",
         "productURL": "https://bivert.pl/img/182681/48336712_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
         "colour": "Niklowany/Czarny Onyx",
-        "fixingMethod": "Mocowanie na wkręty",
+        "fixingMethod": "na wkręty",
         "doorType": "Drzwi równoległe",
         "openingAngle": "83",
         "productSystem": "CLIPtop TIP-ON"
@@ -334,7 +334,7 @@
         "articleNumber": "79T8500",
         "productURL": "https://bivert.pl/img/180871/46584366_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie na wkręty",
+        "fixingMethod": "na wkręty",
         "doorType": "Drzwi składane",
         "openingAngle": "60",
         "productSystem": "CLIPtop - ze sprężyną"
@@ -344,7 +344,7 @@
         "articleNumber": "79T8530",
         "productURL": "https://bivert.pl/img/176311/42466462_BT_P_1_PB_BAU_SALL_AOF_V1.jpg",
         "colour": "Niklowany",
-        "fixingMethod": "Mocowanie INSERTA na wcisk",
+        "fixingMethod": "INSERTA na wcisk",
         "doorType": "Drzwi składane",
         "openingAngle": "60",
         "productSystem": "CLIPtop - ze sprężyną"
