@@ -5,11 +5,23 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Cache;
+import com.android.volley.Network;
+import com.android.volley.NetworkResponse;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.BaseHttpStack;
+import com.android.volley.toolbox.BasicNetwork;
+import com.android.volley.toolbox.DiskBasedCache;
+import com.android.volley.toolbox.HttpHeaderParser;
+import com.android.volley.toolbox.HurlStack;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 
@@ -19,6 +31,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class ProductsActivity extends AppCompatActivity {
 
@@ -44,10 +57,16 @@ public class ProductsActivity extends AppCompatActivity {
 
 
     private void extractProducts(){
+//        Cache cache = new DiskBasedCache(getCacheDir(), 10024 * 10024);
+//        Network network = new BasicNetwork(new HurlStack());
         RequestQueue queue = Volley.newRequestQueue(this);
+//        RequestQueue queue = new RequestQueue(cache, network);
+//        queue.start();
         @SuppressLint("NotifyDataSetChanged") JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, JSON_URL, null, response -> {
 
             int categoryClicked = getIntent().getIntExtra("clickedPos", 99);
+
+
 
             for (int i = 0; i < response.length(); i++) {
                 try {
@@ -63,6 +82,7 @@ public class ProductsActivity extends AppCompatActivity {
                         prowadnikHeader.setTitle(jsonObject.getString("title"));
                         prowadnikHeader.setImageURL(jsonObject.getString("imageURL"));
                         productsList.add(prowadnikHeader);
+                        Log.i("prowadnik object", jsonObject.getString("imageURL"));
                     }
                     if(jsonObject.getInt("category") == 2 && categoryClicked == 0) {
                         Products zawiasHeader = new Products();
@@ -132,6 +152,8 @@ public class ProductsActivity extends AppCompatActivity {
                     }
 
 
+
+
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -144,7 +166,44 @@ public class ProductsActivity extends AppCompatActivity {
 
         }, error -> Log.d("tag", "onErrorResponse: " + error.getMessage()));
 
+
         queue.add(jsonArrayRequest);
     }
+//    /**
+//     * Extracts a {@link Cache.Entry} from a {@link NetworkResponse}.
+//     * Cache-control headers are ignored. SoftTtl == 3 mins, ttl == 24 hours.
+//     * @param response The network response to parse headers from
+//     * @return a cache entry for the given response, or null if the response is not cacheable.
+//     */
+//    public static Cache.Entry parseIgnoreCacheHeaders(NetworkResponse response) {
+//        long now = System.currentTimeMillis();
+//
+//        Map<String, String> headers = response.headers;
+//        long serverDate = 0;
+//        String serverEtag = null;
+//        String headerValue;
+//
+//        headerValue = headers.get("Date");
+//        if (headerValue != null) {
+//            serverDate = HttpHeaderParser.parseDateAsEpoch(headerValue);
+//        }
+//
+//        serverEtag = headers.get("ETag");
+//
+//        final long cacheHitButRefreshed = 3 * 60 * 1000; // in 3 minutes cache will be hit, but also refreshed on background
+//        final long cacheExpired = 24 * 60 * 60 * 1000; // in 24 hours this cache entry expires completely
+//        final long softExpire = now + cacheHitButRefreshed;
+//        final long ttl = now + cacheExpired;
+//
+//        Cache.Entry entry = new Cache.Entry();
+//        entry.data = response.data;
+//        entry.etag = serverEtag;
+//        entry.softTtl = softExpire;
+//        entry.ttl = ttl;
+//        entry.serverDate = serverDate;
+//        entry.responseHeaders = headers;
+//
+//        return entry;
+//    }
 
 }
